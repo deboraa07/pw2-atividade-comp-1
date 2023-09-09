@@ -1,0 +1,194 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_main__ibFHK {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 56px;
+  gap: 99px;
+}
+
+.page_barSlide__p5xEv {
+  width: 20vw;
+  height: 17px;
+
+  background: var(--color-pink-50);
+  border-radius: 999px;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/components/titleDriver/titleDriver.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.titleDriver_title__wUlee {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: var(--color-purple-400);
+}
+
+.titleDriver_title__wUlee span {
+  color: var(--color-pink-100);
+}
+
+.titleDriver_subtitle__dvbGH {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: var(--color-purple-400);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/components/driverInformation/driverInformation.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+.driverInformation_container__DfkDt {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 21.1875rem;
+}
+
+.driverInformation_iconsDriverCar__ve8aU {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.driverInformation_driverIcon__Y3cBI {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.driverInformation_driverPhotoAndScore__fjcvE {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.driverInformation_driverScore__P2VnX {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2256rem;
+
+  bottom: 0;
+
+  padding: 0.302rem 1.2rem;
+  border-radius: 15.6862px;
+
+  color: var(--color-gray-100);
+  background: var(--color-purple-400);
+}
+
+.driverInformation_driverName__mZ_sC {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: var(--color-purple-400);
+}
+
+.driverInformation_car__0kFPa {
+  position: absolute;
+  left: 5.7rem;
+  z-index: -1;
+}
+
+.driverInformation_carInformations__S3mrx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.driverInformation_carId__U8Ofc {
+  font-weight: 700;
+  font-size: 41.0955px;
+  line-height: 50px;
+
+  color: var(--color-purple-400);
+}
+
+.driverInformation_carType__p2fQz {
+  font-weight: 500;
+  font-size: 24.6573px;
+  line-height: 30px;
+
+  color: var(--color-purple-400);
+}
+
+@media screen and (max-width: 680px) {
+  .driverInformation_container__DfkDt {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .driverInformation_iconsDriverCar__ve8aU {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .driverInformation_car__0kFPa {
+    position: initial;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/components/contactDriver/contactDriver.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.contactDriver_container__IkDMm {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.contactDriver_inputSendMessage__rfc8_ {
+  background: var(--color-gray-150);
+  border-radius: 1.5rem;
+  border: transparent;
+
+  padding: 1.125rem 1.8125rem;
+  min-width: 24.5rem;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-purple-400);
+}
+
+.contactDriver_emergencyIcons__NshL3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.contactDriver_phone__or0QE:hover {
+  cursor: pointer;
+}
+
+.contactDriver_shield__pr3DT:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .contactDriver_container__IkDMm {
+    flex-direction: column;
+  }
+  .contactDriver_inputSendMessage__rfc8_ {
+    padding: 0.5rem 2rem;
+  }
+}
+
